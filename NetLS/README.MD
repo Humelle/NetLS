@@ -7,7 +7,7 @@ This program checks if a given point is inside a rectangle defined by two points
 
 1. **Clone the repository:**
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/Humelle/NetLS.git
     cd NetLS
     ```
 
@@ -22,8 +22,7 @@ This program checks if a given point is inside a rectangle defined by two points
     ```
 
 4. **Input the coordinates:**
-    - Follow the prompts in the console to input the coordinates for the rectangle and the point.
-
+    - Follow the prompts in the console to input the coordinates for the square and the point.
 ## Example
 ```console
 Type x1:2
@@ -38,3 +37,13 @@ Type x:1
 
 Type y:6
 ```
+**Run the tests:**
+```sh
+cd ../
+```
+```sh
+dotnet test
+```
+
+
+
